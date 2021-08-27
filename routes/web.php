@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/about-us','MywebpageController@about');
+Route::get('/register','MywebpageController@register');

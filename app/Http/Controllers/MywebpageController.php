@@ -9,8 +9,11 @@ class MywebpageController extends Controller
 {
     public function about(Request $request)
     {
+            return view('about-us');
+    }
 
-
-        return view('about-us');
+    public function register()
+    {
+        return "hello ";
     }
 }
